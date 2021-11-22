@@ -5,16 +5,35 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>BlazorApp001</title>
-    <base href="/BlazorApp01/" />
+    <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="BlazorApp001.styles.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+
+
+    <!--<link href="_content/Syncfusion.Blazor.Themes/bootstrap4.css" rel="stylesheet" />-->
+    <!--<link href="_content/Syncfusion.Blazor.Themes/bootstrap5.css" rel="stylesheet" />-->
+    <!--<link href="_content/Syncfusion.Blazor.Themes/bootstrap5-dark.css" rel="stylesheet" />-->
+    <link href="_content/Syncfusion.Blazor.Themes/material-dark.css" rel="stylesheet" />
+
+    <link href="_content/Syncfusion.Blazor.Themes/material.css" rel="stylesheet" />
+
+    <style>
+
+        .e-bigger {
+            font-size: x-large;
+        }
+    </style>
+
+
 </head>
 
-<body>
+<!--<body class="e-bigger">-->
+<body class="e-bigger">
+    <!--<body>-->
     <div id="app">Loading...</div>
 
     <div id="blazor-error-ui">
@@ -24,6 +43,23 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
+
+
+
+
+
+    <script>
+        function onTouch() {
+            document.body.classList.add('e-bigger');
+        }
+
+        function onMouse() {
+            document.body.classList.remove('e-bigger');
+        }
+    </script>
+
 </body>
+
+
 
 </html>
