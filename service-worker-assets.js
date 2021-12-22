@@ -52,10 +52,7 @@
       "hash": "sha256-p\/oxU91iBE+uaDr3kYOyZPuulf4YcPAMNIz6PRA\/tb0=",
       "url": "css\/open-iconic\/README.md"
     },
-    {
-      "hash": "sha256-hwzCReYswlbqhIaVyyDfsbV2BZrSM7kqaA1nUrMeaZA=",
-      "url": "data\/BudoLibrary.db3"
-    },
+   
     {
       "hash": "sha256-BrfPhpCW7uTEDYv2\/hFACvt\/J04lUBIk17KoLoZLFrg=",
       "url": "decode.js"
@@ -108,10 +105,7 @@
       "hash": "sha256-yzFf+O\/mlH+Q9klUSqXP2kxGKOUFLPxaww8da8fKhGU=",
       "url": "sample-data\/weather.json"
     },
-    {
-      "hash": "sha256-yzFf+O\/mlH+Q9klUSqXP2kxGKOUFLPxaww8da8fKhGU=",
-      "url": "sample-data\/weather.json.txt"
-    },
+   
     {
       "hash": "sha256-ssz2+b8Q8+yLpHAi4CymX9AQM22YoCq8Yq59bvvPpGI=",
       "url": "_framework\/blazor.webassembly.js"
